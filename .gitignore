@@ -1,0 +1,16 @@
+@"
+# Rust
+/target/
+
+# SQLite DB files (keep migrations instead)
+/db/
+/*.db
+/*.sqlite
+
+# Env
+.env
+
+# OS cruft
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding ascii -NoNewline
